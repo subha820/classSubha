@@ -4,7 +4,11 @@ import { stat } from 'node:fs';
 const app = express();
 
 const user = [1,2,3,4,5];
-
+let obj={
+    name: "John Doe",
+    age: 30,
+    email: "johndoe@example.com"
+}
 //middleware
 //it's a function that runs before the actual request handler
 
