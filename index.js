@@ -8,7 +8,8 @@ let obj={
     name: "John Doe",
     age: 30,
     email: "johndoe@example.com"
-}
+};
+const hel=["Hello","World","This","is","a","test"];
 //middleware
 //it's a function that runs before the actual request handler
 
